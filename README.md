@@ -1,9 +1,49 @@
 # Video Motion Detector / Glitch Effect  
 
 This detects and visualizes movement in video files using OpenCV.
+
 Seen this getting around on Instagram and TikTok.
+Run the build to create an .exe
 
 ![Movement Detector Preview](https://github.com/laidlaw42/video_motion_glitch/raw/main/preview.jpg)
+
+## Building from Source
+
+### Requirements
+
+- Python 3.8 or higher
+- OpenCV (cv2)
+- PyQt6
+- NumPy
+- PyInstaller (for building executable)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/movement_detector.git
+cd movement_detector
+```
+
+2. Create a virtual environment (recommended):
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install required packages:
+```bash
+pip install -r requirements.txt
+```
+
+### Building the Executable
+
+1. Make sure you have all requirements installed
+2. Run the build script:
+```bash
+python build.py
+```
+3. The executable will be created in the `dist` folder
 
 ## Features
 
