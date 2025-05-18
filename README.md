@@ -1,6 +1,9 @@
-# Movement Detector
+# Video Motion Detector / Glitch Effect  
 
-A Python application that detects and visualizes movement in video files using OpenCV. The application provides various visual effects and customization options for movement detection and visualization.
+This detects and visualizes movement in video files using OpenCV.
+Seen this getting around on Instagram and TikTok.
+
+![Movement Detector Preview](https://github.com/laidlaw42/video_motion_glitch/raw/main/preview.jpg)
 
 ## Features
 
